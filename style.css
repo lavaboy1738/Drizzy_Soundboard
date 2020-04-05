@@ -9,9 +9,12 @@
 .wrapper {
     position: absolute;
     width: 1000px;
-    height: 120 px;
+    height: 250px;
     left: calc(50% - 500px);
-    top: calc(60%);
+    top: calc(55%);
+}
+
+.keyWrapper{
     display: flex;
     justify-content: space-between;
 }
@@ -24,10 +27,9 @@ body{
 
 h1 {
     font-family: 'Do Hyeon', sans-serif;
-    position: absolute;
-    font-size: 60px;
-    left: calc(50% - 230px);
-    top: 50%;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 20px;
 }
 
 .key {
