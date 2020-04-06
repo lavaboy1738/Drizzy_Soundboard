@@ -12,7 +12,6 @@
     height: 250px;
     left: calc(50% - 500px);
     top: calc(55%);
-    transition: 0.3s all ease;
 }
 
 .keyWrapper{
@@ -21,7 +20,7 @@
 }
 
 body{
-    background-image: url(src/2805.jpg);
+    background-image: url(/2805.b164ab66.jpg);
     background-size: 100%;
     background-repeat: repeat
 }
@@ -64,67 +63,10 @@ div > p {
 
 nav{
     font-family: 'Do Hyeon', sans-serif;
-    font-size: 30px;
-    height: 100%;
-    position: absolute;
-    left: -200px;
-    width: 200px;
-    background: #27292F;
-    transition: 0.3s all ease;
-}
-
-.openMenu{
-    left: 0px;
 }
 
 li{
     list-style-type: none;
-    transition: 0.3s all ease;
-    padding: 15px;
-    text-align: left;
-    border-bottom: 1px solid #333;
 }
 
-li:hover {
-    background-color: #111111;
-    cursor: pointer;
-}
-
-.hamburger{
-    position: absolute;
-    top: 10px;
-    right: -50px;
-}
-
-.hamburger:hover{
-    cursor: pointer;
-}
-
-.hamburger span{
-    display: block;
-    width: 40px;
-    height: 6px;
-    background-color: white;
-    margin: 6px 0;
-    border-radius: 3px;
-    transition: 0.3s all ease;
-    position: relative;
-}
-
-.change.firstBar{
-    top: 12px;
-    transform: rotate(45deg)
-}
-
-.change.secondBar{
-    opacity: 0;
-}
-
-.change.thirdBar{
-    bottom: 12px;
-    transform: rotate(-45deg);
-}
-
-.shift{
-    margin-left: 200px;
-}
+/*# sourceMappingURL=/style.e308ff8e.css.map */

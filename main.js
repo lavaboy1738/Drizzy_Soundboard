@@ -9,3 +9,21 @@ window.addEventListener("keydown", function(e){
         key.classList.remove("playing")
     }, 70);
 })
+
+const hamburger = document.querySelector(".hamburger");
+const menu = document.querySelector("nav");
+const wrapper = document.querySelector(".wrapper")
+
+hamburger.addEventListener("click", toggleNav)
+
+function toggleNav(){
+    menu.classList.toggle("openMenu");
+    wrapper.classList.toggle("shift");
+    animateHamburger();
+}
+
+function animateHamburger(){
+    for(let bar of hamburger.children){
+        bar.classList.toggle("change");
+    }
+}
