@@ -13,8 +13,14 @@ window.addEventListener("keydown", function(e){
 const hamburger = document.querySelector(".hamburger");
 const menu = document.querySelector("nav");
 const wrapper = document.querySelector(".wrapper")
+const join = document.querySelector(".join")
+const modal = document.querySelector(".modalBackground")
+const closeButton = document.querySelector(".closeButton")
+
 
 hamburger.addEventListener("click", toggleNav)
+join.addEventListener("click", toggleModal)
+closeButton.addEventListener("click", toggleModal)
 
 function toggleNav(){
     menu.classList.toggle("openMenu");
@@ -26,4 +32,8 @@ function animateHamburger(){
     for(let bar of hamburger.children){
         bar.classList.toggle("change");
     }
+}
+
+function toggleModal(){
+    modal.classList.toggle("openModal")
 }
