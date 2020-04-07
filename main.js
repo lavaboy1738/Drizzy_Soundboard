@@ -16,7 +16,11 @@ const wrapper = document.querySelector(".wrapper")
 const join = document.querySelector(".join")
 const modal = document.querySelector(".modalBackground")
 const closeButton = document.querySelector(".closeButton")
-
+window.addEventListener("click", function(event){
+    if(event.target === modal){
+        modal.classList.remove("openModal")
+    }
+})
 
 hamburger.addEventListener("click", toggleNav)
 join.addEventListener("click", toggleModal)

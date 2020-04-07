@@ -149,6 +149,7 @@ li:hover {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.9);
     animation: 0.5s slidedown;
+    border-radius: 10px;
 }
 
 @keyframes slidedown{
